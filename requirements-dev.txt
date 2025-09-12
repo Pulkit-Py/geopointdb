@@ -1,0 +1,7 @@
+# requirements-dev.txt
+pytest
+flake8
+black
+mypy
+sphinx
+sphinx-rtd-theme

@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geopointdb"
+version = "0.1.0"
+description = "Offline geolocation and geocoding package using SQLite (~40k world cities)"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+authors = [
+  { name = "Pulkit Saini", email = "pulkitsaini127@gmail.com" }
+]
+keywords = ["geolocation", "geocoding", "sqlite", "offline", "world cities"]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Database :: Database Engines/Servers",
+    "Topic :: Utilities",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Pulkit-Py/geopointdb"
+Repository = "https://github.com/Pulkit-Py/geopointdb/issues"
+
+[tool.setuptools]
+packages = ["geopointdb"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"geopointdb" = ["worldcities.csv"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov>=2.0",
+    "black>=22.0",
+    "isort>=5.0",
+    "flake8>=3.9",
+]
