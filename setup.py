@@ -10,7 +10,7 @@ setup(
     version="1.0.0",  # First stable release
     author="Pulkit-Py",
     author_email="pulkitsaini127@gmail.com",
-    description="Fast offline city latitude/longitude finder using SQLite database (~40k world cities).",
+    description="Fast offline city latitude/longitude finder using SQLite database (~200000+ world cities).",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Pulkit-Py/geopointdb",

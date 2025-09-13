@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "geopointdb"
 version = "0.1.0"
-description = "Offline geolocation and geocoding package using SQLite (~40k world cities)"
+description = "Offline geolocation and geocoding package using SQLite (~200000+ world cities)"
 readme = "README.md"
 requires-python = ">=3.7"
 license = { text = "MIT" }
