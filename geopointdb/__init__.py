@@ -2,7 +2,7 @@
 geopointdb - A package for offline geolocation and geocoding operations.
 """
 
-__version__ = '1.0.0'
+__version__ = '1.2.0'
 __author__ = 'Pulkit Saini'
 __email__ = 'pulkitsaini127@gmail.com'
 __license__ = 'MIT'

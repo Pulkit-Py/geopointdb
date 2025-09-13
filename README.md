@@ -151,4 +151,15 @@ For support, please open an issue on the [GitHub repository](https://github.com/
 
 ## Acknowledgements
 
-- World cities data from [simplemaps.com](https://simplemaps.com/data/world-cities)
+- World cities data from [geonames.org](https://www.geonames.org/)
+
+
+## Support
+
+If you found this project helpful, consider:
+- Giving it a ⭐ on GitHub
+- Following me on social media
+- Sharing it with others who might find it useful
+
+---
+<p align="center">Made with ❤️ by <a href="https://github.com/Pulkit-Py">Pulkit-Py</a> From 🇮🇳 India</p>

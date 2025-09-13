@@ -1,1 +1,1 @@
-include worldcities.csv
+include geopointdb/worldcities.db
